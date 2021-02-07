@@ -17,6 +17,10 @@
 //     h1.style.color=color.value
 // })
 let h1 =document.querySelector('h1');
+example2.addEventListener('click',function(){
+    h1.style.fontSize = (Infinity);
+   
+})
 example4.addEventListener('click',function(){
     let number = parseInt(h1.innerText);
     number++;
