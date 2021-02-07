@@ -22,3 +22,8 @@ example4.addEventListener('click',function(){
     number++;
     h1.innerText =number;
 })
+example5.addEventListener('click',function(){
+    let number = parseInt(h1.innerText);
+    number--;
+    h1.innerText =number;
+})
