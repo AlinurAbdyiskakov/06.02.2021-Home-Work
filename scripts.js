@@ -5,3 +5,6 @@ let input =document.querySelector("#chenge");
 click.addEventListener('click',function(){
     h1.innerText = "Hello java scripts"
 })
+sayHello.addEventListener('click',function(){
+    h1.innerText = "Hello User"
+})
