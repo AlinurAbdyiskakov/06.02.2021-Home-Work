@@ -41,10 +41,3 @@ example5.addEventListener('click',function(){
 
 
 
-// function changeBackground() {
-//     // The working function for changing background color.
-//     document.bgColor = document.getElementById("color").value;
-
-//     // The code I'd like to use for changing the text simultaneously - however it does not work.
-//     document.getElementById("coltext").style.color = document.getElementById("color").value;
-// }
