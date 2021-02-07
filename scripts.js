@@ -16,6 +16,12 @@
 // color.querySelector('change',function (){
 //     h1.style.color=color.value
 // })
+let example1 = document.querySelector("#example1");
+example1.style.backgroundColor ='rgb(253, 76, 45)';
+example1.style.color = 'balck';
+example1.style.fontSize = '20px';
+example1.style.border = '2px solid yellow'
+
 
 let h1 =document.querySelector('h1');
 example2.addEventListener('click',function(){
