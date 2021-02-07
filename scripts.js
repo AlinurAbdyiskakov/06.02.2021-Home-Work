@@ -16,3 +16,9 @@
 // color.querySelector('change',function (){
 //     h1.style.color=color.value
 // })
+let h1 =document.querySelector('h1');
+example4.addEventListener('click',function(){
+    let number = parseInt(h1.innerText);
+    number++;
+    h1.innerText =number;
+})
