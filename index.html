@@ -18,6 +18,10 @@
     <script type="text/javascript" >
     var color = ["#222f3e","#f368e0","#ee5253","#0abde3","#10as84","#5f27cd"];
     var i = 0;
+    document.querySelector("#example1").addEventListener("click",function(){
+        i = i < color.length ? ++i : 0;
+        document.querySelector("h1").style.color = color[i];
+    })
     </script><br>
     <button id="example2">Увеличет шрифт</button><br>
     <button id="example3">Уменшет шрифт</button><br>
