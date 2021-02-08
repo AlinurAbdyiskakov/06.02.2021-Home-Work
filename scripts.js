@@ -34,6 +34,13 @@ example4.addEventListener('click', function () {
     h1.innerText = number;
 })
 
+    var fontSize = ["infinite"];
+    var b = 0;
+    document.querySelector("#example2").addEventListener("click",function(){
+        b = b < fontSize.length ? ++b : 0;
+        document.querySelector("h1").style.fontSize = fontSize[b];
+    })
+
 
 example5.addEventListener('click', function () {
     let number = parseInt(h1.innerText);
