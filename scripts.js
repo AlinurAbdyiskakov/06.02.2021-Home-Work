@@ -33,16 +33,13 @@ example4.addEventListener('click', function () {
     number++;
     h1.innerText = number;
 })
-example2.addEventListener('click', function () {
-  
-    
-  
- example2.style.fontSize = parseInt(h1.innerText);
-    fontSize++;
-    h1.innerText = fontSize;
-})
+
 example5.addEventListener('click', function () {
     let number = parseInt(h1.innerText);
     number--;
     h1.innerText = number;
+})
+let input = document.querySelector('#example2');
+input.addEventListener('click',function(){
+    h1.innerText=input.value;
 })
