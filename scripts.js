@@ -33,9 +33,7 @@ example4.addEventListener('click', function () {
     number++;
     h1.innerText = number;
 })
-example2.addEventListener('click',function(){
- input.value = parseInt(input.value) +1;
-})
+
 
 example5.addEventListener('click', function () {
     let number = parseInt(h1.innerText);
