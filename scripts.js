@@ -34,12 +34,12 @@ example4.addEventListener('click', function () {
     h1.innerText = number;
 })
 
-    var fontSize = ["infinite"];
-    var b = 0;
-    document.querySelector("#example2").addEventListener("click",function(){
-        b = b < fontSize.length ? ++b : 0;
-        document.querySelector("h1").style.fontSize = fontSize[b];
-    })
+var fontSize = ["infinite"];
+var b = 0;
+document.querySelector("#example2").addEventListener("click", function () {
+    b = b < fontSize.length ? ++b : 0;
+    document.querySelector("h1").style.fontSize = fontSize[b];
+})
 
 
 example5.addEventListener('click', function () {
@@ -48,6 +48,12 @@ example5.addEventListener('click', function () {
     h1.innerText = number;
 })
 let input = document.querySelector('#example2');
-input.addEventListener('click',function(){
-    h1.innerText=input.value;
+input.addEventListener('click', function () {
+    h1.innerText = input.value;
 })
+
+
+
+
+
+
